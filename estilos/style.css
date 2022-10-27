@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body a{
+    text-decoration: none;
+}
+body.fundo{
+    background-image: url('../imagens/musica.jpg');
+    background-size: cover;
+}  
+
+header{
+    min-height: 80px;
+    background-color: black;
+    padding: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+header>h1{
+    color: white;
+    text-align: left;
+}
+
+nav{
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    margin-right: 68px;
+    margin-top: -30px;
+}
+nav>a{
+    padding: 10px; 
+    font-weight: bold; 
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+nav>.perfil{
+    padding-left:50px;
+}
+
+nav>a:hover{
+    color: rgb(100, 216, 100);
+}
+
+div>img{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+div#tamanho{
+    width: 200px;
+}
+
+.logotipo{
+    text-align: left;
+    margin-left: 100px;
+    padding-top: 1px;
+}
+
+main{
+    text-align: center;
+}
+
+main>h1{
+    font-size: 7em;
+    margin-top: 370px;
+    color: rgb(240, 239, 239);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.623);
+    -webkit-text-stroke: .5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.24)
+}
+main>p{
+    font-size: 1.2em;
+    margin-top: 60px;
+    color: rgb(240, 239, 239);
+}
+main>.borda{
+    margin-top: 70px;
+    margin-bottom: 200px;
+    border: 3px;
+    border-style: solid;
+    width: 250px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-color: #2DE26D;
+    background-color: #2DE26D;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #284428;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+}
+main>.borda:hover{
+    background-color: #35fc7a;
+    border-color: #35fc7a;
+}
+main>.sombra{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+}
+footer>aside{
+    color: white;
+    columns: 3;
+    margin-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 360px;
+}
+footer>aside>ul{
+    line-height: 2em;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: #2DE26D;
+}
