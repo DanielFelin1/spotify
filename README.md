@@ -1,4 +1,5 @@
 # Clone-spotify
-CLone da página de inicio do spotify. Feito com CSS e HTML
+Clone da página de inicio do spotify. Feito com CSS e HTML
 
-![image](https://user-images.githubusercontent.com/91913746/198399028-a99a474f-3d69-4704-bc68-3429bb90cc6e.png)
+![image](https://user-images.githubusercontent.com/91913746/198419751-65401d2e-a706-4922-bb9a-68fd9d68e4cd.png)
+
